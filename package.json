@@ -1,4 +1,29 @@
 {
   "name": "react-native-template-luizcorreia",
-  "version": "0.0.2"
+  "version": "0.0.3",
+  "description": "Clean and minimalist React Native template for a quick start with TypeScript.",
+  "scripts": {
+    "prepublishOnly": "npm --no-git-tag-version version $TRAVIS_TAG"
+  },
+  "files": [
+    "template",
+    "template.config.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luizcorreia/react-native-template-ts-luizcorreia.git"
+  },
+  "keywords": [
+    "react-native",
+    "typescript",
+    "jest",
+    "template",
+    "boilerplate"
+  ],
+  "author": "Luiz Correia <luiz@luizcorreia.eti.br>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luizcorreia/react-native-template-ts-luizcorreia/issues"
+  },
+  "homepage": "https://github.com/luizcorreia/react-native-template-ts-luizcorreia#readme"
 }
