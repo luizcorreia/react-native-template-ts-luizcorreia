@@ -1,6 +1,6 @@
 {
   "name": "react-native-template-luizcorreia",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Clean and minimalist React Native template for a quick start with TypeScript.",
   "scripts": {
     "prepublishOnly": "npm --no-git-tag-version version $TRAVIS_TAG"
